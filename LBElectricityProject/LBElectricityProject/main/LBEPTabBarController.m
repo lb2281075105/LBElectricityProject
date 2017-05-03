@@ -21,7 +21,9 @@
 
     UITabBarItem *tabBarItem = [UITabBarItem appearance];
     [tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor cz_colorWithHex:0x1FB7F2]} forState:UIControlStateSelected];
-
+    ///普通状态下的标签栏标题颜色
+    //[[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithRed:132/255.0 green:132/255.0 blue:132/255.0 alpha:1]} forState:(UIControlStateNormal)];
+    [[UITabBar appearance]setBackgroundImage:[UIImage imageNamed:@"tabbar_back"]];
 }
 - (void)viewDidLoad {
     [super viewDidLoad];

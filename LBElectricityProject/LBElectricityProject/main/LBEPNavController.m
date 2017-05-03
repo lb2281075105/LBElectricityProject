@@ -14,15 +14,20 @@
 
 @implementation LBEPNavController
 +(void)initialize{
-
-
+    
+    [[UINavigationBar appearance]setBackgroundImage:[UIImage imageNamed:@"nav_backImage"] forBarMetrics:UIBarMetricsDefault];
 }
     
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+/// MARK --- pushViewController
+-(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
 
+    
+    [super pushViewController:viewController animated:animated];
+}
 
 
 @end
