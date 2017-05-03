@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8253D741EB9C5C400F211F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253D731EB9C5C400F211F9 /* main.m */; };
+		F8253D7F1EB9C5C400F211F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8253D7E1EB9C5C400F211F9 /* Assets.xcassets */; };
+		F8253D821EB9C5C400F211F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8253D801EB9C5C400F211F9 /* LaunchScreen.storyboard */; };
+		F8253D981EB9CDDB00F211F9 /* LBEPPurchaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253D971EB9CDDB00F211F9 /* LBEPPurchaseController.m */; };
+		F8253D9C1EB9CE2400F211F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253D9B1EB9CE2400F211F9 /* AppDelegate.m */; };
+		F8253DA21EB9CE4000F211F9 /* LBEPNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253D9F1EB9CE4000F211F9 /* LBEPNavController.m */; };
+		F8253DA31EB9CE4000F211F9 /* LBEPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DA11EB9CE4000F211F9 /* LBEPTabBarController.m */; };
+		F8253DA61EB9CE7D00F211F9 /* LBEPMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DA51EB9CE7D00F211F9 /* LBEPMineController.m */; };
+		F8253DA91EB9CF1000F211F9 /* LBEPShopCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DA81EB9CF1000F211F9 /* LBEPShopCarController.m */; };
+		F8253DAC1EB9CF3500F211F9 /* LBEPClassifyController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DAB1EB9CF3500F211F9 /* LBEPClassifyController.m */; };
+		F8253DC81EB9D24E00F211F9 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DB11EB9D24E00F211F9 /* NSArray+Log.m */; };
+		F8253DC91EB9D24E00F211F9 /* NSAttributedString+CZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DB31EB9D24E00F211F9 /* NSAttributedString+CZAdditon.m */; };
+		F8253DCA1EB9D24E00F211F9 /* NSObject+CZRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DB51EB9D24E00F211F9 /* NSObject+CZRuntime.m */; };
+		F8253DCB1EB9D24E00F211F9 /* NSString+CZBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DB71EB9D24E00F211F9 /* NSString+CZBase64.m */; };
+		F8253DCC1EB9D24E00F211F9 /* NSString+CZHash.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DB91EB9D24E00F211F9 /* NSString+CZHash.m */; };
+		F8253DCD1EB9D24E00F211F9 /* NSString+CZPath.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DBB1EB9D24E00F211F9 /* NSString+CZPath.m */; };
+		F8253DCE1EB9D24E00F211F9 /* UIButton+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DBD1EB9D24E00F211F9 /* UIButton+CZAddition.m */; };
+		F8253DCF1EB9D24E00F211F9 /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DBF1EB9D24E00F211F9 /* UIColor+CZAddition.m */; };
+		F8253DD01EB9D24E00F211F9 /* UILabel+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DC11EB9D24E00F211F9 /* UILabel+CZAddition.m */; };
+		F8253DD11EB9D24E00F211F9 /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DC31EB9D24E00F211F9 /* UIScreen+CZAddition.m */; };
+		F8253DD21EB9D24E00F211F9 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DC51EB9D24E00F211F9 /* UIView+CZAddition.m */; };
+		F8253DD31EB9D24E00F211F9 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DC71EB9D24E00F211F9 /* UIViewController+CZAddition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8253D6F1EB9C5C400F211F9 /* LBElectricityProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBElectricityProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8253D731EB9C5C400F211F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8253D7E1EB9C5C400F211F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8253D811EB9C5C400F211F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8253D831EB9C5C400F211F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8253D961EB9CDDB00F211F9 /* LBEPPurchaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBEPPurchaseController.h; sourceTree = "<group>"; };
+		F8253D971EB9CDDB00F211F9 /* LBEPPurchaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBEPPurchaseController.m; sourceTree = "<group>"; };
+		F8253D9A1EB9CE2400F211F9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8253D9B1EB9CE2400F211F9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8253D9E1EB9CE4000F211F9 /* LBEPNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBEPNavController.h; sourceTree = "<group>"; };
+		F8253D9F1EB9CE4000F211F9 /* LBEPNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBEPNavController.m; sourceTree = "<group>"; };
+		F8253DA01EB9CE4000F211F9 /* LBEPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBEPTabBarController.h; sourceTree = "<group>"; };
+		F8253DA11EB9CE4000F211F9 /* LBEPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBEPTabBarController.m; sourceTree = "<group>"; };
+		F8253DA41EB9CE7D00F211F9 /* LBEPMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBEPMineController.h; sourceTree = "<group>"; };
+		F8253DA51EB9CE7D00F211F9 /* LBEPMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBEPMineController.m; sourceTree = "<group>"; };
+		F8253DA71EB9CF1000F211F9 /* LBEPShopCarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBEPShopCarController.h; sourceTree = "<group>"; };
+		F8253DA81EB9CF1000F211F9 /* LBEPShopCarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBEPShopCarController.m; sourceTree = "<group>"; };
+		F8253DAA1EB9CF3500F211F9 /* LBEPClassifyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBEPClassifyController.h; sourceTree = "<group>"; };
+		F8253DAB1EB9CF3500F211F9 /* LBEPClassifyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBEPClassifyController.m; sourceTree = "<group>"; };
+		F8253DAF1EB9D24E00F211F9 /* CZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAdditions.h; sourceTree = "<group>"; };
+		F8253DB01EB9D24E00F211F9 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		F8253DB11EB9D24E00F211F9 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		F8253DB21EB9D24E00F211F9 /* NSAttributedString+CZAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+CZAdditon.h"; sourceTree = "<group>"; };
+		F8253DB31EB9D24E00F211F9 /* NSAttributedString+CZAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+CZAdditon.m"; sourceTree = "<group>"; };
+		F8253DB41EB9D24E00F211F9 /* NSObject+CZRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CZRuntime.h"; sourceTree = "<group>"; };
+		F8253DB51EB9D24E00F211F9 /* NSObject+CZRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CZRuntime.m"; sourceTree = "<group>"; };
+		F8253DB61EB9D24E00F211F9 /* NSString+CZBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZBase64.h"; sourceTree = "<group>"; };
+		F8253DB71EB9D24E00F211F9 /* NSString+CZBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZBase64.m"; sourceTree = "<group>"; };
+		F8253DB81EB9D24E00F211F9 /* NSString+CZHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZHash.h"; sourceTree = "<group>"; };
+		F8253DB91EB9D24E00F211F9 /* NSString+CZHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZHash.m"; sourceTree = "<group>"; };
+		F8253DBA1EB9D24E00F211F9 /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZPath.h"; sourceTree = "<group>"; };
+		F8253DBB1EB9D24E00F211F9 /* NSString+CZPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZPath.m"; sourceTree = "<group>"; };
+		F8253DBC1EB9D24E00F211F9 /* UIButton+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZAddition.h"; sourceTree = "<group>"; };
+		F8253DBD1EB9D24E00F211F9 /* UIButton+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZAddition.m"; sourceTree = "<group>"; };
+		F8253DBE1EB9D24E00F211F9 /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		F8253DBF1EB9D24E00F211F9 /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		F8253DC01EB9D24E00F211F9 /* UILabel+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CZAddition.h"; sourceTree = "<group>"; };
+		F8253DC11EB9D24E00F211F9 /* UILabel+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CZAddition.m"; sourceTree = "<group>"; };
+		F8253DC21EB9D24E00F211F9 /* UIScreen+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+CZAddition.h"; sourceTree = "<group>"; };
+		F8253DC31EB9D24E00F211F9 /* UIScreen+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+CZAddition.m"; sourceTree = "<group>"; };
+		F8253DC41EB9D24E00F211F9 /* UIView+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZAddition.h"; sourceTree = "<group>"; };
+		F8253DC51EB9D24E00F211F9 /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
+		F8253DC61EB9D24E00F211F9 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
+		F8253DC71EB9D24E00F211F9 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
+		F8253DD41EB9D2A200F211F9 /* LBElectricityProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBElectricityProject.pch; sourceTree = "<group>"; };
+		F8253DD51EB9D33300F211F9 /* LBEPHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBEPHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8253D6C1EB9C5C400F211F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8253D661EB9C5C400F211F9 = {
+			isa = PBXGroup;
+			children = (
+				F8253D711EB9C5C400F211F9 /* LBElectricityProject */,
+				F8253D701EB9C5C400F211F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8253D701EB9C5C400F211F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8253D6F1EB9C5C400F211F9 /* LBElectricityProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8253D711EB9C5C400F211F9 /* LBElectricityProject */ = {
+			isa = PBXGroup;
+			children = (
+				F8253D9D1EB9CE4000F211F9 /* main */,
+				F8253D991EB9CE2400F211F9 /* Other */,
+				F8253D951EB9CDC800F211F9 /* 限时购 */,
+				F8253D921EB9CDC800F211F9 /* 分类 */,
+				F8253D931EB9CDC800F211F9 /* 购物车 */,
+				F8253D941EB9CDC800F211F9 /* 我的 */,
+				F8253DAD1EB9D24E00F211F9 /* UI框架 */,
+				F8253DD41EB9D2A200F211F9 /* LBElectricityProject.pch */,
+				F8253DD51EB9D33300F211F9 /* LBEPHeader.h */,
+				F8253D7E1EB9C5C400F211F9 /* Assets.xcassets */,
+				F8253D801EB9C5C400F211F9 /* LaunchScreen.storyboard */,
+				F8253D831EB9C5C400F211F9 /* Info.plist */,
+				F8253D721EB9C5C400F211F9 /* Supporting Files */,
+			);
+			path = LBElectricityProject;
+			sourceTree = "<group>";
+		};
+		F8253D721EB9C5C400F211F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8253D731EB9C5C400F211F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8253D921EB9CDC800F211F9 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				F8253DAA1EB9CF3500F211F9 /* LBEPClassifyController.h */,
+				F8253DAB1EB9CF3500F211F9 /* LBEPClassifyController.m */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		F8253D931EB9CDC800F211F9 /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				F8253DA71EB9CF1000F211F9 /* LBEPShopCarController.h */,
+				F8253DA81EB9CF1000F211F9 /* LBEPShopCarController.m */,
+			);
+			path = "购物车";
+			sourceTree = "<group>";
+		};
+		F8253D941EB9CDC800F211F9 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				F8253DA41EB9CE7D00F211F9 /* LBEPMineController.h */,
+				F8253DA51EB9CE7D00F211F9 /* LBEPMineController.m */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		F8253D951EB9CDC800F211F9 /* 限时购 */ = {
+			isa = PBXGroup;
+			children = (
+				F8253D961EB9CDDB00F211F9 /* LBEPPurchaseController.h */,
+				F8253D971EB9CDDB00F211F9 /* LBEPPurchaseController.m */,
+			);
+			path = "限时购";
+			sourceTree = "<group>";
+		};
+		F8253D991EB9CE2400F211F9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F8253D9A1EB9CE2400F211F9 /* AppDelegate.h */,
+				F8253D9B1EB9CE2400F211F9 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F8253D9D1EB9CE4000F211F9 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				F8253DA01EB9CE4000F211F9 /* LBEPTabBarController.h */,
+				F8253DA11EB9CE4000F211F9 /* LBEPTabBarController.m */,
+				F8253D9E1EB9CE4000F211F9 /* LBEPNavController.h */,
+				F8253D9F1EB9CE4000F211F9 /* LBEPNavController.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		F8253DAD1EB9D24E00F211F9 /* UI框架 */ = {
+			isa = PBXGroup;
+			children = (
+				F8253DAE1EB9D24E00F211F9 /* Additions */,
+			);
+			path = "UI框架";
+			sourceTree = "<group>";
+		};
+		F8253DAE1EB9D24E00F211F9 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				F8253DAF1EB9D24E00F211F9 /* CZAdditions.h */,
+				F8253DB01EB9D24E00F211F9 /* NSArray+Log.h */,
+				F8253DB11EB9D24E00F211F9 /* NSArray+Log.m */,
+				F8253DB21EB9D24E00F211F9 /* NSAttributedString+CZAdditon.h */,
+				F8253DB31EB9D24E00F211F9 /* NSAttributedString+CZAdditon.m */,
+				F8253DB41EB9D24E00F211F9 /* NSObject+CZRuntime.h */,
+				F8253DB51EB9D24E00F211F9 /* NSObject+CZRuntime.m */,
+				F8253DB61EB9D24E00F211F9 /* NSString+CZBase64.h */,
+				F8253DB71EB9D24E00F211F9 /* NSString+CZBase64.m */,
+				F8253DB81EB9D24E00F211F9 /* NSString+CZHash.h */,
+				F8253DB91EB9D24E00F211F9 /* NSString+CZHash.m */,
+				F8253DBA1EB9D24E00F211F9 /* NSString+CZPath.h */,
+				F8253DBB1EB9D24E00F211F9 /* NSString+CZPath.m */,
+				F8253DBC1EB9D24E00F211F9 /* UIButton+CZAddition.h */,
+				F8253DBD1EB9D24E00F211F9 /* UIButton+CZAddition.m */,
+				F8253DBE1EB9D24E00F211F9 /* UIColor+CZAddition.h */,
+				F8253DBF1EB9D24E00F211F9 /* UIColor+CZAddition.m */,
+				F8253DC01EB9D24E00F211F9 /* UILabel+CZAddition.h */,
+				F8253DC11EB9D24E00F211F9 /* UILabel+CZAddition.m */,
+				F8253DC21EB9D24E00F211F9 /* UIScreen+CZAddition.h */,
+				F8253DC31EB9D24E00F211F9 /* UIScreen+CZAddition.m */,
+				F8253DC41EB9D24E00F211F9 /* UIView+CZAddition.h */,
+				F8253DC51EB9D24E00F211F9 /* UIView+CZAddition.m */,
+				F8253DC61EB9D24E00F211F9 /* UIViewController+CZAddition.h */,
+				F8253DC71EB9D24E00F211F9 /* UIViewController+CZAddition.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8253D6E1EB9C5C400F211F9 /* LBElectricityProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8253D861EB9C5C400F211F9 /* Build configuration list for PBXNativeTarget "LBElectricityProject" */;
+			buildPhases = (
+				F8253D6B1EB9C5C400F211F9 /* Sources */,
+				F8253D6C1EB9C5C400F211F9 /* Frameworks */,
+				F8253D6D1EB9C5C400F211F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBElectricityProject;
+			productName = LBElectricityProject;
+			productReference = F8253D6F1EB9C5C400F211F9 /* LBElectricityProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8253D671EB9C5C400F211F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LBEP;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "刘博";
+				TargetAttributes = {
+					F8253D6E1EB9C5C400F211F9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MECQS3Z269;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F8253D6A1EB9C5C400F211F9 /* Build configuration list for PBXProject "LBElectricityProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8253D661EB9C5C400F211F9;
+			productRefGroup = F8253D701EB9C5C400F211F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8253D6E1EB9C5C400F211F9 /* LBElectricityProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8253D6D1EB9C5C400F211F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8253D821EB9C5C400F211F9 /* LaunchScreen.storyboard in Resources */,
+				F8253D7F1EB9C5C400F211F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8253D6B1EB9C5C400F211F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8253DCF1EB9D24E00F211F9 /* UIColor+CZAddition.m in Sources */,
+				F8253DC81EB9D24E00F211F9 /* NSArray+Log.m in Sources */,
+				F8253DAC1EB9CF3500F211F9 /* LBEPClassifyController.m in Sources */,
+				F8253DD01EB9D24E00F211F9 /* UILabel+CZAddition.m in Sources */,
+				F8253DC91EB9D24E00F211F9 /* NSAttributedString+CZAdditon.m in Sources */,
+				F8253DD31EB9D24E00F211F9 /* UIViewController+CZAddition.m in Sources */,
+				F8253DCB1EB9D24E00F211F9 /* NSString+CZBase64.m in Sources */,
+				F8253DA21EB9CE4000F211F9 /* LBEPNavController.m in Sources */,
+				F8253D741EB9C5C400F211F9 /* main.m in Sources */,
+				F8253D981EB9CDDB00F211F9 /* LBEPPurchaseController.m in Sources */,
+				F8253DCE1EB9D24E00F211F9 /* UIButton+CZAddition.m in Sources */,
+				F8253DD11EB9D24E00F211F9 /* UIScreen+CZAddition.m in Sources */,
+				F8253DA61EB9CE7D00F211F9 /* LBEPMineController.m in Sources */,
+				F8253DCA1EB9D24E00F211F9 /* NSObject+CZRuntime.m in Sources */,
+				F8253D9C1EB9CE2400F211F9 /* AppDelegate.m in Sources */,
+				F8253DA31EB9CE4000F211F9 /* LBEPTabBarController.m in Sources */,
+				F8253DCD1EB9D24E00F211F9 /* NSString+CZPath.m in Sources */,
+				F8253DD21EB9D24E00F211F9 /* UIView+CZAddition.m in Sources */,
+				F8253DCC1EB9D24E00F211F9 /* NSString+CZHash.m in Sources */,
+				F8253DA91EB9CF1000F211F9 /* LBEPShopCarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8253D801EB9C5C400F211F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8253D811EB9C5C400F211F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8253D841EB9C5C400F211F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8253D851EB9C5C400F211F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8253D871EB9C5C400F211F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = MECQS3Z269;
+				GCC_PREFIX_HEADER = LBElectricityProject/LBElectricityProject.pch;
+				INFOPLIST_FILE = LBElectricityProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liubo.LBElectricityProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8253D881EB9C5C400F211F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = MECQS3Z269;
+				GCC_PREFIX_HEADER = LBElectricityProject/LBElectricityProject.pch;
+				INFOPLIST_FILE = LBElectricityProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liubo.LBElectricityProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8253D6A1EB9C5C400F211F9 /* Build configuration list for PBXProject "LBElectricityProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8253D841EB9C5C400F211F9 /* Debug */,
+				F8253D851EB9C5C400F211F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8253D861EB9C5C400F211F9 /* Build configuration list for PBXNativeTarget "LBElectricityProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8253D871EB9C5C400F211F9 /* Debug */,
+				F8253D881EB9C5C400F211F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8253D671EB9C5C400F211F9 /* Project object */;
+}
