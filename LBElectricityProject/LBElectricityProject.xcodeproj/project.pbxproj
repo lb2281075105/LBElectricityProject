@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC679FFFD95679E6136CAC91 /* libPods-LBElectricityProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEBD3A681D82E9399CB4C17 /* libPods-LBElectricityProject.a */; };
 		F8253D741EB9C5C400F211F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253D731EB9C5C400F211F9 /* main.m */; };
 		F8253D7F1EB9C5C400F211F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8253D7E1EB9C5C400F211F9 /* Assets.xcassets */; };
 		F8253D821EB9C5C400F211F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8253D801EB9C5C400F211F9 /* LaunchScreen.storyboard */; };
@@ -32,6 +33,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E7E5F584FF2416FFD2EECFA /* Pods-LBElectricityProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBElectricityProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBElectricityProject/Pods-LBElectricityProject.debug.xcconfig"; sourceTree = "<group>"; };
+		ADEBD3A681D82E9399CB4C17 /* libPods-LBElectricityProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LBElectricityProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95D2D59633B96BC55185D5D /* Pods-LBElectricityProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBElectricityProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBElectricityProject/Pods-LBElectricityProject.release.xcconfig"; sourceTree = "<group>"; };
 		F8253D6F1EB9C5C400F211F9 /* LBElectricityProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBElectricityProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8253D731EB9C5C400F211F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8253D7E1EB9C5C400F211F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,17 +89,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC679FFFD95679E6136CAC91 /* libPods-LBElectricityProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		140842EBB1F5F259162F8C39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E7E5F584FF2416FFD2EECFA /* Pods-LBElectricityProject.debug.xcconfig */,
+				D95D2D59633B96BC55185D5D /* Pods-LBElectricityProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		472817F1C6CDC1CCF6885E28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADEBD3A681D82E9399CB4C17 /* libPods-LBElectricityProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F8253D661EB9C5C400F211F9 = {
 			isa = PBXGroup;
 			children = (
 				F8253D711EB9C5C400F211F9 /* LBElectricityProject */,
 				F8253D701EB9C5C400F211F9 /* Products */,
+				140842EBB1F5F259162F8C39 /* Pods */,
+				472817F1C6CDC1CCF6885E28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,12 +135,12 @@
 			isa = PBXGroup;
 			children = (
 				F8253D9D1EB9CE4000F211F9 /* main */,
-				F8253D991EB9CE2400F211F9 /* Other */,
 				F8253D951EB9CDC800F211F9 /* 限时购 */,
 				F8253D921EB9CDC800F211F9 /* 分类 */,
 				F8253D931EB9CDC800F211F9 /* 购物车 */,
 				F8253D941EB9CDC800F211F9 /* 我的 */,
 				F8253DAD1EB9D24E00F211F9 /* UI框架 */,
+				F8253D991EB9CE2400F211F9 /* Other */,
 				F8253DD41EB9D2A200F211F9 /* LBElectricityProject.pch */,
 				F8253DD51EB9D33300F211F9 /* LBEPHeader.h */,
 				F8253D7E1EB9C5C400F211F9 /* Assets.xcassets */,
@@ -238,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8253D861EB9C5C400F211F9 /* Build configuration list for PBXNativeTarget "LBElectricityProject" */;
 			buildPhases = (
+				634D6AB95D8ED8DF40BA16C4 /* [CP] Check Pods Manifest.lock */,
 				F8253D6B1EB9C5C400F211F9 /* Sources */,
 				F8253D6C1EB9C5C400F211F9 /* Frameworks */,
 				F8253D6D1EB9C5C400F211F9 /* Resources */,
+				AF15D0F2454C0F40DFC65638 /* [CP] Embed Pods Frameworks */,
+				2804D1F54D34A48D36CDE801 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,6 +324,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2804D1F54D34A48D36CDE801 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBElectricityProject/Pods-LBElectricityProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		634D6AB95D8ED8DF40BA16C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF15D0F2454C0F40DFC65638 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBElectricityProject/Pods-LBElectricityProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8253D6B1EB9C5C400F211F9 /* Sources */ = {
@@ -432,6 +507,7 @@
 		};
 		F8253D871EB9C5C400F211F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7E5F584FF2416FFD2EECFA /* Pods-LBElectricityProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -447,6 +523,7 @@
 		};
 		F8253D881EB9C5C400F211F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D95D2D59633B96BC55185D5D /* Pods-LBElectricityProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -479,6 +556,7 @@
 				F8253D881EB9C5C400F211F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
