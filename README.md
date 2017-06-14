@@ -5,37 +5,34 @@
 > * 公众号【liubo920205】，会不断更新公众号文章，请关注！
 
 [TOC]
-
-# 限时购
-## 你好
-
-# 分类
-## 分类
-
-# 购物车
-## 购物车
-
-# 我的
-## 我的
-
-
 # 一、前言
+  ## 限时购
+
+  ## 分类
+
+
+  ## 购物车
+
+
+  ## 我的
+
+# 二、项目架构分析
+ 
+ 
+
+# 三、截图预览
 
 
 
-# 二、截图预览
+# 四、技术框架
 
 
 
-# 三、技术框架
+# 五、仓库地址：[LBElectricityProject](https://github.com/lb2281075105/LBElectricityProject.git)
 
 
 
-# 四、仓库地址：[LBElectricityProject](https://github.com/lb2281075105/LBElectricityProject.git)
-
-
-
-# 五、项目心得
+# 六、项目心得
 
 
 
