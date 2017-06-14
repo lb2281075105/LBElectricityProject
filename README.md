@@ -4,7 +4,7 @@
 > * 本人github会不断更新一些Demo，方便大家交流指正，谢谢！
 > * 公众号【liubo920205】，会不断更新公众号文章，请关注！
 
-[toc]
+
 # 一、前言
 
 # 二、项目架构分析
@@ -12,7 +12,25 @@
     ## 限时购
        ### 限时购界面整体思想结构：最底层是一个UIScrollView，上面是两个UIView，下面是一个UITableView,如果实现表视图和中间两个按钮的父视图同步移动，就要使的表视图的高度等于单元格的高度x单元格个数，并且表视图bounce=false,滑动视图高度也需要改变contentSize属性。
        ### 悬浮两个按钮：
+             * 具体代码如下：
+<!--                ```核心代码-->
+<!--                    - (void)scrollViewDidScroll:(UIScrollView *)scrollView{-->
+<!--                           if (scrollView.contentOffset.y > 230){-->
+<!--                              CGRect rect = _twoBtnView.frame;-->
+<!--                              rect.origin.y = scrollView.contentOffset.y;-->
+<!--                              _twoBtnView.frame = rect;-->
+<!--                           }else{-->
+<!--                              CGRect rect = _twoBtnView.frame;-->
+<!--                              rect.origin.y = 230;-->
+<!--                              _twoBtnView.frame = rect;-->
+<!--                           }-->
+<!--                    }-->
+<!--               ```-->
+               
        ### 中间两个按钮的切换：
+
+       ### 请求数据(为了实现加载框)方法：创建一个控制器，只在这个控制器里面实现请求数据方法，并且其他请求数据的控制器可以继承自此控制器。
+
     ## 分类
 
 

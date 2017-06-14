@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Price</key>
+		<string>20元</string>
+		<key>DomesticPrice</key>
+		<string>40元</string>
+		<key>CountryImg</key>
+		<string>详情界面收藏按钮</string>
+		<key>GoodsIntro</key>
+		<string>详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮</string>
+		<key>Title</key>
+		<string>我的收藏</string>
+	</dict>
+	<dict>
+		<key>Price</key>
+		<string>1000元</string>
+		<key>DomesticPrice</key>
+		<string>80元</string>
+		<key>CountryImg</key>
+		<string>详情界面收藏按钮详情界面收藏按钮</string>
+		<key>GoodsIntro</key>
+		<string>我的界面我的收藏图标</string>
+		<key>Title</key>
+		<string>我的收藏</string>
+	</dict>
+	<dict>
+		<key>Price</key>
+		<string>1200元</string>
+		<key>DomesticPrice</key>
+		<string>2000元</string>
+		<key>CountryImg</key>
+		<string>详情界面收藏按钮</string>
+		<key>GoodsIntro</key>
+		<string>详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮</string>
+		<key>Title</key>
+		<string>我的收藏</string>
+	</dict>
+	<dict>
+		<key>Price</key>
+		<string>2000元</string>
+		<key>DomesticPrice</key>
+		<string>2300元</string>
+		<key>CountryImg</key>
+		<string>详情界面收藏按钮</string>
+		<key>GoodsIntro</key>
+		<string>详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮</string>
+		<key>Title</key>
+		<string>我的收藏</string>
+	</dict>
+	<dict>
+		<key>Price</key>
+		<string>300元</string>
+		<key>DomesticPrice</key>
+		<string>4000元</string>
+		<key>CountryImg</key>
+		<string>详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮</string>
+		<key>GoodsIntro</key>
+		<string>我的界面我的收藏图标</string>
+		<key>Title</key>
+		<string>我的收藏</string>
+	</dict>
+</array>
+</plist>

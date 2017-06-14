@@ -30,6 +30,12 @@
 		F8253DD11EB9D24E00F211F9 /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DC31EB9D24E00F211F9 /* UIScreen+CZAddition.m */; };
 		F8253DD21EB9D24E00F211F9 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DC51EB9D24E00F211F9 /* UIView+CZAddition.m */; };
 		F8253DD31EB9D24E00F211F9 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253DC71EB9D24E00F211F9 /* UIViewController+CZAddition.m */; };
+		F86BDC0D1EF10C9800C3D1E9 /* LBEPTwoBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BDC0C1EF10C9800C3D1E9 /* LBEPTwoBtnView.m */; };
+		F86BDC161EF112BB00C3D1E9 /* LBEPDownTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BDC151EF112BB00C3D1E9 /* LBEPDownTableView.m */; };
+		F86BDC421EF12E6400C3D1E9 /* LBEPFirstTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BDC411EF12E6400C3D1E9 /* LBEPFirstTVCell.m */; };
+		F86BDC451EF12E8000C3D1E9 /* LBEPSecondTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BDC441EF12E8000C3D1E9 /* LBEPSecondTVCell.m */; };
+		F86BDC491EF1380000C3D1E9 /* LBEPFirstTablePlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = F86BDC481EF1380000C3D1E9 /* LBEPFirstTablePlist.plist */; };
+		F86BDC4D1EF13CE800C3D1E9 /* LBEPPurchaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BDC4C1EF13CE800C3D1E9 /* LBEPPurchaseModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +88,17 @@
 		F8253DC71EB9D24E00F211F9 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
 		F8253DD41EB9D2A200F211F9 /* LBElectricityProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBElectricityProject.pch; sourceTree = "<group>"; };
 		F8253DD51EB9D33300F211F9 /* LBEPHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBEPHeader.h; sourceTree = "<group>"; };
+		F86BDC0B1EF10C9800C3D1E9 /* LBEPTwoBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBEPTwoBtnView.h; sourceTree = "<group>"; };
+		F86BDC0C1EF10C9800C3D1E9 /* LBEPTwoBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBEPTwoBtnView.m; sourceTree = "<group>"; };
+		F86BDC141EF112BB00C3D1E9 /* LBEPDownTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBEPDownTableView.h; sourceTree = "<group>"; };
+		F86BDC151EF112BB00C3D1E9 /* LBEPDownTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBEPDownTableView.m; sourceTree = "<group>"; };
+		F86BDC401EF12E6400C3D1E9 /* LBEPFirstTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBEPFirstTVCell.h; sourceTree = "<group>"; };
+		F86BDC411EF12E6400C3D1E9 /* LBEPFirstTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBEPFirstTVCell.m; sourceTree = "<group>"; };
+		F86BDC431EF12E8000C3D1E9 /* LBEPSecondTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBEPSecondTVCell.h; sourceTree = "<group>"; };
+		F86BDC441EF12E8000C3D1E9 /* LBEPSecondTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBEPSecondTVCell.m; sourceTree = "<group>"; };
+		F86BDC481EF1380000C3D1E9 /* LBEPFirstTablePlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LBEPFirstTablePlist.plist; sourceTree = "<group>"; };
+		F86BDC4B1EF13CE800C3D1E9 /* LBEPPurchaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBEPPurchaseModel.h; sourceTree = "<group>"; };
+		F86BDC4C1EF13CE800C3D1E9 /* LBEPPurchaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBEPPurchaseModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +208,9 @@
 			children = (
 				F8253D961EB9CDDB00F211F9 /* LBEPPurchaseController.h */,
 				F8253D971EB9CDDB00F211F9 /* LBEPPurchaseController.m */,
+				F86BDC481EF1380000C3D1E9 /* LBEPFirstTablePlist.plist */,
+				F86BDC4A1EF13C7100C3D1E9 /* Model */,
+				F86BDC0A1EF10C6900C3D1E9 /* View */,
 			);
 			path = "限时购";
 			sourceTree = "<group>";
@@ -253,6 +273,30 @@
 				F8253DC71EB9D24E00F211F9 /* UIViewController+CZAddition.m */,
 			);
 			path = Additions;
+			sourceTree = "<group>";
+		};
+		F86BDC0A1EF10C6900C3D1E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F86BDC0B1EF10C9800C3D1E9 /* LBEPTwoBtnView.h */,
+				F86BDC0C1EF10C9800C3D1E9 /* LBEPTwoBtnView.m */,
+				F86BDC141EF112BB00C3D1E9 /* LBEPDownTableView.h */,
+				F86BDC151EF112BB00C3D1E9 /* LBEPDownTableView.m */,
+				F86BDC401EF12E6400C3D1E9 /* LBEPFirstTVCell.h */,
+				F86BDC411EF12E6400C3D1E9 /* LBEPFirstTVCell.m */,
+				F86BDC431EF12E8000C3D1E9 /* LBEPSecondTVCell.h */,
+				F86BDC441EF12E8000C3D1E9 /* LBEPSecondTVCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F86BDC4A1EF13C7100C3D1E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F86BDC4B1EF13CE800C3D1E9 /* LBEPPurchaseModel.h */,
+				F86BDC4C1EF13CE800C3D1E9 /* LBEPPurchaseModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +364,7 @@
 			files = (
 				F8253D821EB9C5C400F211F9 /* LaunchScreen.storyboard in Resources */,
 				F8253D7F1EB9C5C400F211F9 /* Assets.xcassets in Resources */,
+				F86BDC491EF1380000C3D1E9 /* LBEPFirstTablePlist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,16 +430,21 @@
 				F8253DC91EB9D24E00F211F9 /* NSAttributedString+CZAdditon.m in Sources */,
 				F8253DD31EB9D24E00F211F9 /* UIViewController+CZAddition.m in Sources */,
 				F8253DCB1EB9D24E00F211F9 /* NSString+CZBase64.m in Sources */,
+				F86BDC0D1EF10C9800C3D1E9 /* LBEPTwoBtnView.m in Sources */,
 				F8253DA21EB9CE4000F211F9 /* LBEPNavController.m in Sources */,
+				F86BDC4D1EF13CE800C3D1E9 /* LBEPPurchaseModel.m in Sources */,
 				F8253D741EB9C5C400F211F9 /* main.m in Sources */,
 				F8253D981EB9CDDB00F211F9 /* LBEPPurchaseController.m in Sources */,
 				F8253DCE1EB9D24E00F211F9 /* UIButton+CZAddition.m in Sources */,
 				F8253DD11EB9D24E00F211F9 /* UIScreen+CZAddition.m in Sources */,
 				F8253DA61EB9CE7D00F211F9 /* LBEPMineController.m in Sources */,
+				F86BDC451EF12E8000C3D1E9 /* LBEPSecondTVCell.m in Sources */,
 				F8253DCA1EB9D24E00F211F9 /* NSObject+CZRuntime.m in Sources */,
 				F8253D9C1EB9CE2400F211F9 /* AppDelegate.m in Sources */,
+				F86BDC421EF12E6400C3D1E9 /* LBEPFirstTVCell.m in Sources */,
 				F8253DA31EB9CE4000F211F9 /* LBEPTabBarController.m in Sources */,
 				F8253DCD1EB9D24E00F211F9 /* NSString+CZPath.m in Sources */,
+				F86BDC161EF112BB00C3D1E9 /* LBEPDownTableView.m in Sources */,
 				F8253DD21EB9D24E00F211F9 /* UIView+CZAddition.m in Sources */,
 				F8253DCC1EB9D24E00F211F9 /* NSString+CZHash.m in Sources */,
 				F8253DA91EB9CF1000F211F9 /* LBEPShopCarController.m in Sources */,
