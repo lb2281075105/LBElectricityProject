@@ -9,7 +9,8 @@
 #import "LBEPPurchaseController.h"
 
 @interface LBEPPurchaseController ()
-
+///最底层滑动视图
+@property (strong, nonatomic) UIScrollView *downScrollView;
 @end
 
 @implementation LBEPPurchaseController
@@ -18,6 +19,7 @@
     [super viewDidLoad];
     
 }
+
 
 
 
