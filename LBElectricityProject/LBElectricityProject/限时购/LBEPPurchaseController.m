@@ -38,8 +38,8 @@
     self.view.backgroundColor = [UIColor cz_colorWithRed:242 green:242 blue:242];
     [self addSubViews];
     [self addFirstTVData];
+    
 }
-
 - (void)addSubViews{
     ///最底层滑动视图
     _downScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen cz_screenWidth], [UIScreen cz_screenHeight] - 64 - 49)];
@@ -51,7 +51,8 @@
     _topScrollView.backgroundColor = [UIColor orangeColor];
     _topScrollView.pageControlAliment = SDCycleScrollViewPageContolAlimentRight;
     _topScrollView.currentPageDotColor = [UIColor whiteColor];
-    _topScrollView.imageURLStringsGroup = @[@"图标1",@"图标2",@"图标3",@"图标4"];
+    NSArray *imageUrlArray = @[@"德国11",@"九月活动"];
+    _topScrollView.imageURLStringsGroup = imageUrlArray;
     ///单品团购
     _firstTableView = [[LBEPDownTableView alloc]initWithFrame:CGRectMake(0, 280, [UIScreen cz_screenWidth], 1700) style:(UITableViewStylePlain)];
     _firstTableView.bounces = NO;
@@ -79,8 +80,11 @@
     _firstModelArray = [LBEPPurchaseModel mj_objectArrayWithKeyValuesArray:[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"LBEPFirstTablePlist" ofType:@"plist"]]];
     
     self.firstTableView.firstModelArray = _firstModelArray;
-    
-    NSLog(@"%@",_firstModelArray);
+    self.secondTableView.secondModelArray = _firstModelArray;
+    ///第一次进入应用时候，计算底部滑动视图的高度
+    if (_twoBtnView.btn1.selected) {
+        _downScrollView.contentSize = CGSizeMake(0, _firstModelArray.count * 170 + 280);
+    }
 }
 - (void)twoBtnViewFrameMethod:(UIButton *)button{
     
@@ -96,7 +100,7 @@
             CGRect rect2 = _secondTableView.frame;
             rect2.origin.x = [UIScreen cz_screenWidth];
             _secondTableView.frame = rect2;
-            _downScrollView.contentSize = CGSizeMake(0, 4 * 170 + 280);
+            _downScrollView.contentSize = CGSizeMake(0, _firstModelArray.count * 170 + 280);
         }];
     }else {
         
@@ -110,11 +114,11 @@
             CGRect rect2 = _secondTableView.frame;
             rect2.origin.x = 0;
             _secondTableView.frame = rect2;
-            _downScrollView.contentSize = CGSizeMake(0, 4 * 200 + 280);
+            _downScrollView.contentSize = CGSizeMake(0, _firstModelArray.count * 200 + 280);
         }];
     }
 }
-
+///使两个按钮悬浮
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     if (scrollView.contentOffset.y > 230){
         CGRect rect = _twoBtnView.frame;

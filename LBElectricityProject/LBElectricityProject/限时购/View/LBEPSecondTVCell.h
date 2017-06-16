@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LBEPPurchaseModel.h"
 @interface LBEPSecondTVCell : UITableViewCell
-
+///团购展示图片
+@property (strong, nonatomic) UIImageView *groupImage;
+///模型
+@property (strong, nonatomic) LBEPPurchaseModel *purchaseModel;
 @end

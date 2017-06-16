@@ -4,15 +4,15 @@
 <array>
 	<dict>
 		<key>Price</key>
-		<string>20元</string>
+		<string>1000元</string>
 		<key>DomesticPrice</key>
-		<string>40元</string>
+		<string>80元</string>
 		<key>CountryImg</key>
-		<string>详情界面收藏按钮</string>
+		<string>http://img.51xiaoniu.cn/product/main_assets/assets/573e/6d28/206a/af4e/87f2/b739/573dc0e1af48433144e07ae5.jpg@!avatar</string>
 		<key>GoodsIntro</key>
-		<string>详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮</string>
+		<string>酿制茅台酒的用水主要是赤水河的水，赤水河水质好，用这种入口微甜、无溶解杂质的水经过蒸馏酿出的酒特别甘美。故清代诗人曾有“集灵泉于一身，汇秀水东下”的咏句赞美赤水河。</string>
 		<key>Title</key>
-		<string>我的收藏</string>
+		<string>同发酒</string>
 	</dict>
 	<dict>
 		<key>Price</key>
@@ -20,11 +20,35 @@
 		<key>DomesticPrice</key>
 		<string>80元</string>
 		<key>CountryImg</key>
-		<string>详情界面收藏按钮详情界面收藏按钮</string>
+		<string>http://img.51xiaoniu.cn/product/main_assets/assets/573e/6d28/206a/af4e/87f2/b739/573dc0e1af48433144e07ae5.jpg@!avatar</string>
 		<key>GoodsIntro</key>
-		<string>我的界面我的收藏图标</string>
+		<string>酿制茅台酒的用水主要是赤水河的水，赤水河水质好，用这种入口微甜、无溶解杂质的水经过蒸馏酿出的酒特别甘美。故清代诗人曾有“集灵泉于一身，汇秀水东下”的咏句赞美赤水河。</string>
 		<key>Title</key>
-		<string>我的收藏</string>
+		<string>同发酒</string>
+	</dict>
+	<dict>
+		<key>Price</key>
+		<string>20元</string>
+		<key>DomesticPrice</key>
+		<string>40元</string>
+		<key>CountryImg</key>
+		<string>http://img.51xiaoniu.cn/product/main_assets/assets/5774/c3e1/206a/af69/93c8/bb9e/5774c20aaf48430d6c245e95.jpg@!avatar</string>
+		<key>GoodsIntro</key>
+		<string>酿制茅台酒的用水主要是赤水河的水，赤水河水质好，用这种入口微甜、无溶解杂质的水经过蒸馏酿出的酒特别甘美。故清代诗人曾有“集灵泉于一身，汇秀水东下”的咏句赞美赤水河。</string>
+		<key>Title</key>
+		<string>米酿酒</string>
+	</dict>
+	<dict>
+		<key>Price</key>
+		<string>1000元</string>
+		<key>DomesticPrice</key>
+		<string>80元</string>
+		<key>CountryImg</key>
+		<string>http://img.51xiaoniu.cn/product/main_assets/assets/573e/6d28/206a/af4e/87f2/b739/573dc0e1af48433144e07ae5.jpg@!avatar</string>
+		<key>GoodsIntro</key>
+		<string>酿制茅台酒的用水主要是赤水河的水，赤水河水质好，用这种入口微甜、无溶解杂质的水经过蒸馏酿出的酒特别甘美。故清代诗人曾有“集灵泉于一身，汇秀水东下”的咏句赞美赤水河。</string>
+		<key>Title</key>
+		<string>同发酒</string>
 	</dict>
 	<dict>
 		<key>Price</key>
@@ -32,11 +56,11 @@
 		<key>DomesticPrice</key>
 		<string>2000元</string>
 		<key>CountryImg</key>
-		<string>详情界面收藏按钮</string>
+		<string>http://img.51xiaoniu.cn/product/main_assets/assets/57b1/841e/206a/af15/80de/084d/57b1843aaf48431fa2bfedf1.jpg@!avatar</string>
 		<key>GoodsIntro</key>
-		<string>详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮</string>
+		<string>酿制茅台酒的用水主要是赤水河的水，赤水河水质好，用这种入口微甜、无溶解杂质的水经过蒸馏酿出的酒特别甘美。故清代诗人曾有“集灵泉于一身，汇秀水东下”的咏句赞美赤水河。</string>
 		<key>Title</key>
-		<string>我的收藏</string>
+		<string>红酒</string>
 	</dict>
 	<dict>
 		<key>Price</key>
@@ -44,11 +68,11 @@
 		<key>DomesticPrice</key>
 		<string>2300元</string>
 		<key>CountryImg</key>
-		<string>详情界面收藏按钮</string>
+		<string>http://img.51xiaoniu.cn/product/main_assets/assets/5731/b89d/206a/af6a/1880/b9ed/56c2e8a8af48431bd5cd6aa8.jpg@!avatar</string>
 		<key>GoodsIntro</key>
-		<string>详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮</string>
+		<string>茅台酒，素有中国“国酒”之称。曾在1915年巴拿马国际博览会上被评为世界第二名酒，荣获金质奖。半个多世纪以来，它以精湛的酿造技艺和独特的色、香、味，为世人称颂，名甲天下，成为国内外市场的“酒中名珠”。</string>
 		<key>Title</key>
-		<string>我的收藏</string>
+		<string>贵州茅台酒</string>
 	</dict>
 	<dict>
 		<key>Price</key>
@@ -56,11 +80,11 @@
 		<key>DomesticPrice</key>
 		<string>4000元</string>
 		<key>CountryImg</key>
-		<string>详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮详情界面收藏按钮</string>
+		<string>http://img.51xiaoniu.cn/product/main_assets/assets/570e/1c6a/206a/af31/6b98/b749/56c28b4daf48431bcdcd61a8.jpg@!avatar</string>
 		<key>GoodsIntro</key>
-		<string>我的界面我的收藏图标</string>
+		<string>五粮液为大曲浓香型白酒，产于四川宜宾市，用小麦、大米、玉米、高粱、糯米5种粮食发酵酿制而成，在中国浓香型酒中独树一帜，香气悠久，滋味醇厚，进口甘美，入喉净爽，各味谐调，恰到好处。</string>
 		<key>Title</key>
-		<string>我的收藏</string>
+		<string>五粮液</string>
 	</dict>
 </array>
 </plist>

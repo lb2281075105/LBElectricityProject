@@ -10,15 +10,32 @@
 
 @implementation LBEPSecondTVCell
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (self) {
+        [self addSubview:self.groupImage];
+    }
+    return self;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
+- (void)layoutSubviews{
+    [super layoutSubviews];
+    __weak typeof (self) weakSelf = self;
+    [_groupImage mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(weakSelf).with.insets(UIEdgeInsetsMake(0, 0, 10, 0));
+    }];
+}
+-(void)setPurchaseModel:(LBEPPurchaseModel *)purchaseModel{
+    _purchaseModel = purchaseModel;
+   [_groupImage sd_setImageWithURL:[NSURL URLWithString:purchaseModel.CountryImg]];
+}
 
-    // Configure the view for the selected state
+///懒加载处理
+- (UIImageView *)groupImage{
+    if (!_groupImage) {
+        _groupImage = [[UIImageView alloc]init];
+    }
+    return _groupImage;
 }
 
 @end

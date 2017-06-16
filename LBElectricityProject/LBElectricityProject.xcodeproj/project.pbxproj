@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BC679FFFD95679E6136CAC91 /* libPods-LBElectricityProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEBD3A681D82E9399CB4C17 /* libPods-LBElectricityProject.a */; };
+		F817EC701EF3C2C1000B38B5 /* HomeData in Resources */ = {isa = PBXBuildFile; fileRef = F817EC6F1EF3C2C1000B38B5 /* HomeData */; };
 		F8253D741EB9C5C400F211F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8253D731EB9C5C400F211F9 /* main.m */; };
 		F8253D7F1EB9C5C400F211F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8253D7E1EB9C5C400F211F9 /* Assets.xcassets */; };
 		F8253D821EB9C5C400F211F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8253D801EB9C5C400F211F9 /* LaunchScreen.storyboard */; };
@@ -42,6 +43,7 @@
 		3E7E5F584FF2416FFD2EECFA /* Pods-LBElectricityProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBElectricityProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBElectricityProject/Pods-LBElectricityProject.debug.xcconfig"; sourceTree = "<group>"; };
 		ADEBD3A681D82E9399CB4C17 /* libPods-LBElectricityProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LBElectricityProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95D2D59633B96BC55185D5D /* Pods-LBElectricityProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBElectricityProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBElectricityProject/Pods-LBElectricityProject.release.xcconfig"; sourceTree = "<group>"; };
+		F817EC6F1EF3C2C1000B38B5 /* HomeData */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HomeData; sourceTree = "<group>"; };
 		F8253D6F1EB9C5C400F211F9 /* LBElectricityProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBElectricityProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8253D731EB9C5C400F211F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8253D7E1EB9C5C400F211F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -130,6 +132,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F817EC6E1EF3C2C1000B38B5 /* 本地数据 */ = {
+			isa = PBXGroup;
+			children = (
+				F817EC6F1EF3C2C1000B38B5 /* HomeData */,
+			);
+			path = "本地数据";
+			sourceTree = "<group>";
+		};
 		F8253D661EB9C5C400F211F9 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +168,7 @@
 				F8253D941EB9CDC800F211F9 /* 我的 */,
 				F8253DAD1EB9D24E00F211F9 /* UI框架 */,
 				F8253D991EB9CE2400F211F9 /* Other */,
+				F817EC6E1EF3C2C1000B38B5 /* 本地数据 */,
 				F8253DD41EB9D2A200F211F9 /* LBElectricityProject.pch */,
 				F8253DD51EB9D33300F211F9 /* LBEPHeader.h */,
 				F8253D7E1EB9C5C400F211F9 /* Assets.xcassets */,
@@ -365,6 +376,7 @@
 				F8253D821EB9C5C400F211F9 /* LaunchScreen.storyboard in Resources */,
 				F8253D7F1EB9C5C400F211F9 /* Assets.xcassets in Resources */,
 				F86BDC491EF1380000C3D1E9 /* LBEPFirstTablePlist.plist in Resources */,
+				F817EC701EF3C2C1000B38B5 /* HomeData in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +410,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		AF15D0F2454C0F40DFC65638 /* [CP] Embed Pods Frameworks */ = {

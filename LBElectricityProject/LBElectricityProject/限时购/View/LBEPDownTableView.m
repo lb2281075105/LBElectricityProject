@@ -21,23 +21,20 @@
     return self;
 }
 
-//- (void)setSingleModelArray:(NSArray *)singleModelArray{
-//    _singleModelArray = singleModelArray;
+//-(void)setFirstModelArray:(NSArray *)firstModelArray{
+//    _firstModelArray = firstModelArray;
 //    [self reloadData];
 //}
-//
-//- (void)setGroupModelArray:(NSArray *)groupModelArray{
-//    _groupModelArray = groupModelArray;
+//-(void)setSecondModelArray:(NSArray *)secondModelArray{
+//    _secondModelArray = secondModelArray;
 //    [self reloadData];
 //}
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     if (_isFirst) {
-        //return self.firstModelArray.count;
-        return 5;
+        return self.firstModelArray.count;
     }else
-        //return self.secondModelArray.count;
-    return 4;
+        return self.secondModelArray.count;
+
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -51,28 +48,26 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     if (_isFirst) {
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"firstCell"];
+        LBEPFirstTVCell *cell = [tableView dequeueReusableCellWithIdentifier:@"firstCell"];
         if (!cell) {
-            cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"firstCell"];
+            cell = [[LBEPFirstTVCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"firstCell"];
         }
-//        cell.singleModel = self.singleModelArray[indexPath.row];
-        cell.backgroundColor = [UIColor blackColor];
-        cell.textLabel.text = [NSString stringWithFormat:@"%li",indexPath.row];
+        cell.purchaseModel = self.firstModelArray[indexPath.row];
         return cell;
     }else{
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"secondCell"];
+        LBEPSecondTVCell *cell = [tableView dequeueReusableCellWithIdentifier:@"secondCell"];
         if (!cell) {
-            cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"secondCell"];
+            cell = [[LBEPSecondTVCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"secondCell"];
         }
-//        cell.ImageUrl = [self.groupModelArray[indexPath.row] ImgView];
-        cell.textLabel.text = [NSString stringWithFormat:@"%li",indexPath.row];
-        cell.backgroundColor = [UIColor redColor];
+        LBEPLog(@"%li",self.firstModelArray.count);
+        cell.purchaseModel = self.secondModelArray[indexPath.row];
         return cell;
     }
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
+    [tableView deselectRowAtIndexPath:indexPath animated:true];
     if (_isFirst) {
         if (_goodsIDBlock) {
 //            _goodsIDBlock([self.singleModelArray[indexPath.row] GoodsId]);
